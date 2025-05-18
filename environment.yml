@@ -1,0 +1,13 @@
+name: chd_analysis_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - statsmodels
+  - scikit-learn>=1.6.1
+  - imbalanced-learn
